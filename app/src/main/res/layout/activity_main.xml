@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="cn.xfyun.opusdemo.MainActivity">
+
+    <Button
+        android:id="@+id/pcm_convert_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pcm转opus" />
+
+    <Button
+        android:id="@+id/opus_convert_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="opus转pcm" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/sys_encode_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统API编码" />
+
+    <Button
+        android:id="@+id/sys_decode_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="系统API解码" />
+</LinearLayout>
